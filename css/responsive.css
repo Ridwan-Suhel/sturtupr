@@ -1,0 +1,538 @@
+ Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+/* Normal desktop :992px. */
+@media (max-width: 1200px) {
+
+.features-section .features-right .features-img {
+    width: 525px;
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    z-index: 1;
+} 
+}
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.top-header {
+    height: 380px;
+}
+
+.top-header .header-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+ 
+  .mean-container .mean-nav {
+        background: #00A99D;
+  }
+
+  .mean-container .mean-nav ul li.active{
+      background: #158A82;
+  }
+
+  .title .hrForbar::before {
+    width: 50%;
+  }
+  .title .hrForbar::after {
+    width: 50%;
+  }
+
+  .title p {
+    margin-top: 7px;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+}
+.features-section .features-content .features-box {
+    flex-direction: column;
+    text-align: center;
+}
+.features-section .features-content .features-box .icon {
+    margin-right: 0px;
+}
+.features-section .features-content .features-box .content {
+    margin-top: 20px;
+}
+.features-section .features-content .features-box .content p {
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.features-section .features-content .features-right {
+    display: none;
+}
+
+
+.satisfied-section .satisfied-left {
+    text-align: center;
+}
+
+.team-section .owl-carousel .owl-nav div.owl-prev {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.team-section .owl-carousel .owl-nav div.owl-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.quote-section .owl-carousel .owl-nav div.owl-prev {
+    left: 40.5%;
+    right: auto;
+}
+.quote-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 40.5%;
+}
+.client-section .owl-carousel .owl-nav div.owl-prev {
+    left: 0px;
+    right: auto;
+}
+
+.client-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 0px;
+}
+.purchase-section .puchz-img {
+    left: 40px;
+}
+.purchase-section .purchase-wrap h2 {
+    margin-left: 167px;
+}
+.purchase-section .purchase-wrap button {
+    margin-left: 167px;
+    margin-top: 20px;
+}
+.purchase-section .puchz-img {
+    bottom: 0px;
+}
+
+.purchase-section .puchz-img img {
+    bottom: 0px;
+    position: absolute;
+}
+
+.satisfied-section .satisfied-right {
+    text-align: center;
+    margin-top: 15px;
+}
+.company-section .count h2::before {
+    left: 14px;
+}
+    .company-section .count h2::after {
+    right: 14px;
+}   
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.top-header {
+    height: 50vh;
+}
+.top-header .header-wrapper p {
+    padding: 5px 8px;
+    width: 100%;
+}
+ .mean-container .mean-nav {
+        background: #00A99D;
+  }
+  .title p {
+    padding: 0px 19px;
+}
+.title .hrForbar::before {
+    width: 30%;
+}
+.title .hrForbar::after {
+    width: 30%;
+}
+.satisfied-section .satisfied-left h3 {
+    text-align: center;
+}
+.team-section .owl-carousel .owl-nav div {
+    top: 50%;
+}
+
+.quote-section .owl-carousel .owl-nav div {
+    left: 35.5%;
+}
+
+.quote-section .owl-carousel .owl-nav div {
+    left: 35.5%;
+}
+.quote-section .owl-carousel .owl-nav div.owl-next {
+    right: 35.5%;
+}
+.purchase-section .puchz-img {
+    display: none;
+}
+.purchase-section .purchase-wrap h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.purchase-section .prchg-btn-div{
+    text-align: center;
+}
+
+.f-contact-section .f-cntact-icon a {
+    margin-bottom: 20px;
+}
+.satisfied-section .satisfied-right {
+    text-align: center;
+}
+ .features-section .features-content .features-right {
+    display: none;
+} 
+ .company-section .counter-bottom {
+    display: none;
+}  
+    .company-section .count h2 {
+    font-size: 70px;
+}
+  .company-section .count h2::before {
+    width: 10px;
+    height: 10px;
+    left: 130px;
+}
+  .company-section .count h2::after {
+    width: 10px;
+    height: 10px;
+    right: 130px;
+}  
+    .client-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 8px;
+}     
+
+.client-section .owl-carousel .owl-nav div {
+    left: 8px;
+
+}  .purchase-section .purchase-wrap h2 {
+    font-weight: bold;
+    margin-left: 0px;
+}
+  .purchase-section .puchz-img {
+    bottom: -57px;
+    left: 0px;
+    position: absolute;
+}  
+   
+.footer-section .form {
+    left: 64px;
+
+} 
+    
+   .top-header .header-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+} 
+   .title .hrForbar {
+    font-size: 18px;
+} 
+.footer-section .footer-map {
+    height: 350px;
+}
+.footer-section .form {
+    width: 350px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    margin: 70px auto;
+}
+#scrollUp {
+    right: 3%;
+}
+}
+
+@media (max-width: 575.98px) { 
+  .work-area .sample-single{
+    width: 50% !important;
+  }
+  .top-header {
+    height: 60vh !important;
+}
+.top-header .header-wrapper .title h4 {
+    margin: 20px 0px !important;
+}
+#scrollUp {
+    right: 3%;
+}
+ }
+
+ /*media less than 480px*/
+@media (max-width: 479px) {
+
+/*.top-header {
+    height: 50vh;
+}*/
+.top-header .header-wrapper p {
+    padding: 5px 8px;
+    width: 100%;
+}
+ .mean-container .mean-nav {
+        background: #00A99D;
+  }
+  .title p {
+    padding: 0px 19px;
+}
+.title .hrForbar::before {
+    width: 30%;
+}
+.title .hrForbar::after {
+    width: 30%;
+}
+.satisfied-section .satisfied-left h3 {
+    text-align: center;
+}
+.team-section .owl-carousel .owl-nav div {
+    top: 50%;
+}
+
+.quote-section .owl-carousel .owl-nav div {
+    left: 35.5%;
+}
+
+.quote-section .owl-carousel .owl-nav div {
+    left: 35.5%;
+}
+.quote-section .owl-carousel .owl-nav div.owl-next {
+    right: 35.5%;
+}
+.purchase-section .puchz-img {
+    display: none;
+}
+.purchase-section .purchase-wrap h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.purchase-section .prchg-btn-div{
+    text-align: center;
+}
+
+.f-contact-section .f-cntact-icon a {
+    margin-bottom: 20px;
+}
+.satisfied-section .satisfied-right {
+    text-align: center;
+}
+ .features-section .features-content .features-right {
+    display: none;
+} 
+ .company-section .counter-bottom {
+    display: none;
+}  
+    .company-section .count h2 {
+    font-size: 70px;
+}
+  .company-section .count h2::before {
+    width: 10px;
+    height: 10px;
+    left: 130px;
+}
+  .company-section .count h2::after {
+    width: 10px;
+    height: 10px;
+    right: 130px;
+}  
+    .client-section .owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 8px;
+}     
+
+.client-section .owl-carousel .owl-nav div {
+    left: 8px;
+
+}  .purchase-section .purchase-wrap h2 {
+    font-weight: bold;
+    margin-left: 0px;
+}
+  .purchase-section .puchz-img {
+    bottom: -57px;
+    left: 0px;
+    position: absolute;
+}  
+   
+.footer-section .form {
+    left: 64px;
+
+} 
+    
+   .top-header .header-wrapper h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+} 
+   .title .hrForbar {
+    font-size: 18px;
+}
+.footer-section .footer-map {
+    height: 350px;
+}
+.footer-section .form {
+    width: 350px;
+    position: static;
+    top: 0px;
+    left: 0px;
+    border-radius: 4px;
+    margin: 70px auto;
+}
+ }
+
+
+
+@media (max-width: 445px) { 
+ .mobile-menu.mean-container {
+    position: absolute;
+    right: 2%;
+    width: 92%;
+    margin-right: 2%;
+}
+.top-header {
+    height: 60vh;
+}
+.top-header .header-wrapper h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.top-header .header-wrapper .title h4 {
+    margin: 30px 0px;
+}
+.top-header .header-wrapper .title h4::before {
+    width: 20%;
+}
+
+.top-header .header-wrapper .title h4::after {
+    width: 20%;
+}
+.top-header .header-wrapper p {
+    font-size: 13px;
+}
+.features-section .title h4 {
+    font-size: 22px;
+}
+.title p {
+    padding: 0px 10px;
+    font-size: 14px;
+}
+.features-section .features-content .features-box {
+    flex-direction: column;
+    text-align: center;
+}
+.features-section .features-content .features-box .icon {
+    margin-right: 0px;
+}
+.features-section .features-content .features-box .content h6 {
+    margin-top: 20px;
+}
+.features-section .features-content .features-box .content p {
+    padding-right: 0px;
+}
+.features-bottom .features-box {
+    flex-direction: column;
+    text-align: center;
+}
+.features-bottom .features-box .f-icon {
+    margin-right: 0px;
+}
+.features-bottom .features-box .f-box-right {
+    margin-top: 45px;
+}
+.features-bottom .features-box .f-box-right p {
+    padding-right: 0px;
+}
+.skill-section .title h4 {
+    font-size: 22px;
+}
+.work-area .sample-single {
+    width: 100% !important;
+    padding: 0px !important;
+}
+.company-section .count h2::before {
+    left: 25%;
+}
+.company-section .count h2::after {
+    right: 25%;
+}
+.satisfied-section .satisfied-left h3 {
+    line-height: 1.4rem;
+}
+.satisfied-section .satisfied-right .button {
+    margin: 10px 3px;
+}
+.title .hrForbar::before {
+    width: 20%;
+}
+
+.title .hrForbar::after {
+    width: 20%;
+}
+#scrollUp {
+    right: 3%;
+}
+}
+
+
+/*media less than 380 device*/
+@media (max-width: 379px) { 
+.top-header .header-wrapper .title h4::before {
+    display: none;
+}
+.top-header .header-wrapper .title h4::after {
+    display: none;
+}
+.title .hrForbar::before {
+    display: none;
+}
+
+.title .hrForbar::after {
+    display: none;
+}
+.features-section .features-content .features-box {
+     margin-top: 40px;
+}
+.features-section .title h4,
+.skill-section .title h4,
+.company-section .title h4
+{
+    font-size: 18px;
+}
+h6{
+   font-size: 13px;
+}
+.satisfied-section .satisfied-right .button {
+    padding: 10px 22px;
+    font-size: 14px;
+}
+.client-section .owl-carousel .owl-nav div {
+    display: none;
+}
+.quote-section .owl-carousel .owl-nav div {
+    display: none;
+}
+.quote-section {
+    padding-bottom: 10px;
+}
+.footer-section .form {
+    width: 100%;
+    text-align: center;
+}
+.footer-section .form input {
+    width: 95%;
+    margin-left: 0px;
+}
+.footer-section .form textarea {
+    width: 95%;
+    margin-left: 0px;
+}
+.ftr-section p {
+    padding: 0px 10px;
+    font-size: 13px;
+    color: #ddd;
+}
+
+
+}
+
+
+
+
+
